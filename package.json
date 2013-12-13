@@ -7,7 +7,8 @@
     "flatiron-cli-config": "~0.1.4",
     "fstream-npm": "~0.1.6",
     "tar": "~0.1.19",
-    "fstream": "~0.1.25"
+    "fstream": "~0.1.25",
+    "animal-id": "0.0.1"
   },
   "main": "./lib/santa.js"
 }
