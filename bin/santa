@@ -3,6 +3,11 @@ var t0 = new Date();
 var santa = require('../');
 process.title = 'santa';
 
-santa.start(function () {
+santa.start(function (err) {
+  if (err) {
+    santa.log.error('Error:');
+    santa.log.error(err.message);
+  }
+
   santa.log.info('(Took ' + ((new Date() - t0) / 1000).toPrecision(2) + ' s to run)');
 });
