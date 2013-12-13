@@ -4,7 +4,10 @@
   "dependencies": {
     "pkgcloud": "~0.8.15",
     "flatiron": "~0.3.11",
-    "flatiron-cli-config": "~0.1.4"
+    "flatiron-cli-config": "~0.1.4",
+    "fstream-npm": "~0.1.6",
+    "tar": "~0.1.19",
+    "fstream": "~0.1.25"
   },
   "main": "./lib/santa.js"
 }
