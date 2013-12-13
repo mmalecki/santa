@@ -1,4 +1,8 @@
 #!/usr/bin/env node
+var t0 = new Date();
 var santa = require('../');
 process.title = 'santa';
-santa.start();
+
+santa.start(function () {
+  santa.log.info('(Took ' + ((new Date() - t0) / 1000).toPrecision(2) + ' s to run)');
+});
