@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+var santa = require('../');
+process.title = 'santa';
+santa.start();
