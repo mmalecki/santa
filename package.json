@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "dependencies": {
     "pkgcloud": "~0.8.15",
-    "flatiron": "~0.3.11"
+    "flatiron": "~0.3.11",
+    "flatiron-cli-config": "~0.1.4"
   },
   "main": "./lib/santa.js"
 }
