@@ -11,5 +11,8 @@
     "animal-id": "0.0.1",
     "pkgcloud-bootstrapper": "~0.1.0"
   },
-  "main": "./lib/santa.js"
+  "main": "./lib/santa.js",
+  "bin": {
+    "santa": "./bin/santa"
+  }
 }
