@@ -1,5 +1,5 @@
 # santa
-A really small deployment tool.
+Deploying to the cloud with your flying sleigh.
 
 ## Installation
 
