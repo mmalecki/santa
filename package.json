@@ -1,6 +1,7 @@
 {
   "name": "santa",
   "version": "0.1.0",
+  "author": "Maciej Małecki <me@mmalecki.com>",
   "dependencies": {
     "pkgcloud": "~0.8.15",
     "flatiron": "~0.3.11",
@@ -14,5 +15,6 @@
   "main": "./lib/santa.js",
   "bin": {
     "santa": "./bin/santa"
-  }
+  },
+  "license": "MIT"
 }
