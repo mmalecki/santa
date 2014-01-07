@@ -11,7 +11,8 @@
     "async": "~0.2.9",
     "tar": "~0.1.19",
     "fstream": "~0.1.25",
-    "fstream-npm": "~0.1.6"
+    "fstream-npm": "~0.1.6",
+    "read-package-json": "~1.1.4"
   },
   "main": "./lib/santa.js",
   "bin": {
