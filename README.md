@@ -37,8 +37,6 @@ santa config set provider:provider <pkgcloud-provider-name>
   * `scripts/install` - should install your application
   * `scripts/start` - should start your application
 
-For an example of a `santa` application, see [`santa-hello-world`](https://github.com/vigour-io/santa-hello-world).
-
 Once you set up the structure, simply execute `santa deploy` in your application
 directory.
 
@@ -46,6 +44,12 @@ directory.
 
 ```bash
 santa servers list
+```
+
+### Destroying servers
+
+```bash
+santa servers destroy <id>
 ```
 
 ### Listing server flavors
