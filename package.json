@@ -7,12 +7,13 @@
     "flatiron": "~0.3.11",
     "flatiron-cli-config": "~0.1.4",
     "animal-id": "0.0.1",
-    "pkgcloud-bootstrapper": "~0.1.0",
+    "pkgcloud-bootstrapper": "~0.2.0",
     "async": "~0.2.9",
     "tar": "~0.1.19",
     "fstream": "~0.1.25",
     "fstream-npm": "~0.1.6",
-    "read-package-json": "~1.1.4"
+    "read-package-json": "~1.1.4",
+    "node-uuid": "~1.4.1"
   },
   "main": "./lib/santa.js",
   "bin": {
